@@ -1,0 +1,24 @@
+/**
+ * Represents a TeaParty class that welcomes users to TeaisFun.
+ */
+class TeaParty {
+    /**
+     * Constructor for the TeaParty class.
+     */
+    constructor() {}
+
+    /**
+     * Function to welcome users to TeaisFun.
+     *
+     * @returns {string} A welcome message to TeaisFun.
+     */
+    welcomeToTeaisFun() {
+        return "Welcome to TeaisFun";
+    }
+}
+
+// Usage Example for TeaParty
+
+const teaParty = new TeaParty();
+const welcomeMessage = teaParty.welcomeToTeaisFun();
+console.log(welcomeMessage);
